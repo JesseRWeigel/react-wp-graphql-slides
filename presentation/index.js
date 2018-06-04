@@ -34,7 +34,7 @@ export default class Presentation extends React.Component {
               Demo Site
             </a>
             <a
-              href=""
+              href="http://materialistic-earthquake.surge.sh/"
               style={{
                 textDecoration: "none",
                 display: "block",
@@ -42,7 +42,7 @@ export default class Presentation extends React.Component {
                 margin: "4px auto"
               }}
             >
-              Slides
+              Slides: materialistic-earthquake.surge.sh
             </a>
             <a
               href="https://github.com/JesseRWeigel/react-wp-graphql-demo"

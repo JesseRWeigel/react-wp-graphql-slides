@@ -1,17 +1,19 @@
 {
   "name": "react-wp-graphql-slides",
   "version": "1.0.1",
-  "description": "Presentation slides build using Spectacle from Formidable Labs",
+  "description":
+    "Presentation slides build using Spectacle from Formidable Labs",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
+    "build":
+      "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "lint": "eslint --ext .js,.jsx .",
     "deploy": "npm run clean & npm run build && surge -p .",
     "export": "spectacle-renderer --delay 3000",
     "start": "cross-env NODE_ENV=development node server.js"
   },
-  "author": "",
+  "author": "Jesse R Weigel",
   "license": "MIT",
   "dependencies": {
     "normalize.css": "7.0.0",
